@@ -25,7 +25,7 @@ Run the project (Run->Run)
 
 Look at [MultiplyAllDamageAndHealth.java](src/com/dd/MultiplyAllDamageAndHealth.java)
 
-Your mod will need to extend GameplayChange.java and override the [makeGameplayChanges(Map<File,DarkestFile>)](src/com/dd/GameplayChange.java#L11) method.
+Your mod will need to extend GameplayChange.java and override the [makeGameplayChanges(Map&lt;File,DarkestFile&gt;)](src/com/dd/GameplayChange.java#L11) method.
 
 Lastly, you will need to add your gameplay change to Runner.java's public void main method.  
 
