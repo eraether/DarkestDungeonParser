@@ -17,7 +17,7 @@ Import the project into eclipse.  (File -> Import -> Navigate to where you clone
 
 Open [Runner.java](src/com/dd/Runner.java)
 
-Change "E:/steam/steamapps/common/DarkestDungeon/" to the location of your darkest dungeon installation.
+Change ["E:/steam/steamapps/common/DarkestDungeon/"](src/com/dd/Runner.java#L24) to the location of your darkest dungeon installation.
 
 Run the project (Run->Run)
 
@@ -25,9 +25,12 @@ Run the project (Run->Run)
 
 Look at [MultiplyAllDamageAndHealth.java](src/com/dd/MultiplyAllDamageAndHealth.java)
 
-Your mod will need to extend GameplayChange.java and override the makeGameplayChanges(Map<File,DarkestFile>) method.
+Your mod will need to extend GameplayChange.java and override the [makeGameplayChanges(Map<File,DarkestFile>)](src/com/dd/GameplayChange.java#L11) method.
 
-Lastly, you will need to add your gameplay change to Runner.java's public void main method.  For reference, here is how MultiplyAllDamageAndHealth.java was added:
+Lastly, you will need to add your gameplay change to Runner.java's public void main method.  
+
+For reference, here is how MultiplyAllDamageAndHealth.java was added:
+
     gameplayChanges.add(new MultiplyAllDamageAndHealth());
 
 That's it!  After your run Runner.java your changes will be in the game!
