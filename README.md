@@ -5,6 +5,8 @@ Programatically Modify .darkest dungeon files.
 
 Exposes an API for reading and writing darkest dungeon files.  This allows you to make global, sweeping changes to the game without editing one file at a time.
 
+![Multiply Damage Mod](media/mod2.png)
+
 ## How to get started
 
     git clone https://github.com/eraether/DarkestDungeonParser.git
